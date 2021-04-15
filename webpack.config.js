@@ -1,6 +1,5 @@
 const path = require("path");
 const bundleOutputDir = "./dist";
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -28,9 +27,6 @@ module.exports = {
                 loader: "css-loader"
             }
         ]
-    },
-    plugins:[
-        new CleanWebpackPlugin()
-    ]
+    }
 };
 
