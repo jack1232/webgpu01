@@ -10,3 +10,8 @@ The develpment tools used in our WebGPU sample apps include:
 * TypeScript as the language for developing front-end apps. 
 * WebPack as the module bundler.
 * Chrome Canary as the browser for viewing WebGPU apps.
+
+## Link for All Source Code Used in the WebGPU Step-By-Step YouTube Video Series:
+
+https://github.com/jack1232/WebGPU-Step-By-Step
+
