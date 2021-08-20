@@ -8,7 +8,8 @@
     "tscw": "tsc --watch",
     "dev": "webpack --mode development",
     "prod": "webpack --mode production",
-    "watch": "webpack --watch --mode production"
+    "watch": "webpack --watch --mode production",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --allow-unclean"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,6 @@
     "webpack-cli": "^4.6.0"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "push-dir": "^0.4.1"
   }
 }
